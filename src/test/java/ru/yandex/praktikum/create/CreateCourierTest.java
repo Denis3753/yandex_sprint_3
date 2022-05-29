@@ -76,7 +76,7 @@ public class CreateCourierTest {
 
 
     @Test
-    @DisplayName("Repeat request by duplicate data")
+    @DisplayName("Repeat request by duplicate data - this login is already use")
     @Issue("Bug message not equal")
     public void courierCreateRepeatedRequestByDuplicateData() {
 
