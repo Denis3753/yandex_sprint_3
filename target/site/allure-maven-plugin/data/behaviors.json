@@ -1,0 +1,191 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Create courier is valid credentials",
+    "uid" : "a0c4a634ec9b7a09",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653840934994,
+      "stop" : 1653840940801,
+      "duration" : 5807
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create courier is empty password",
+    "uid" : "d2d61f366f47708b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653840940933,
+      "stop" : 1653840941312,
+      "duration" : 379
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Repeat request by duplicate data",
+    "uid" : "6b54d86fb4d1e214",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653840941320,
+      "stop" : 1653840941805,
+      "duration" : 485
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create courier is empty login",
+    "uid" : "7302f28c3b2129d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653840941808,
+      "stop" : 1653840942071,
+      "duration" : 263
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Courier invalid password",
+    "uid" : "c3f97854ba1bacba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653840942077,
+      "stop" : 1653840942575,
+      "duration" : 498
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Courier invalid login",
+    "uid" : "7bc18a426348446a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653840942578,
+      "stop" : 1653840943027,
+      "duration" : 449
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Courier with empty field password",
+    "uid" : "67f7a16ab1327137",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653840943032,
+      "stop" : 1653841003420,
+      "duration" : 60388
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Courier with empty field login",
+    "uid" : "f163e7f8909104c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653841003426,
+      "stop" : 1653841003987,
+      "duration" : 561
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Courier is valid credential",
+    "uid" : "ae45070822468246",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653841003991,
+      "stop" : 1653841004470,
+      "duration" : 479
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create order",
+    "children" : [ {
+      "name" : "Create order is valid credential",
+      "uid" : "47268d061f74fb2e",
+      "parentUid" : "374f1c1f5da675e493a9dc80580613c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841004539,
+        "stop" : 1653841004859,
+        "duration" : 320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "60591a4598520fbd",
+      "parentUid" : "374f1c1f5da675e493a9dc80580613c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841004868,
+        "stop" : 1653841005090,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "9dc7a91cbbb0c511",
+      "parentUid" : "374f1c1f5da675e493a9dc80580613c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841005096,
+        "stop" : 1653841005269,
+        "duration" : 173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "4ec007ded64cf881",
+      "parentUid" : "374f1c1f5da675e493a9dc80580613c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841005273,
+        "stop" : 1653841005468,
+        "duration" : 195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "374f1c1f5da675e493a9dc80580613c7"
+  }, {
+    "name" : "Get all orders courier",
+    "uid" : "c3c1564c7cdb54c9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653841005474,
+      "stop" : 1653841006745,
+      "duration" : 1271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

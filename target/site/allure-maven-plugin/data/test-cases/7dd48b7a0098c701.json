@@ -1,0 +1,136 @@
+{
+  "uid" : "7dd48b7a0098c701",
+  "name" : "Courier invalid password",
+  "fullName" : "ru.yandex.praktikum.login.CourierLoginTest.courierLoginInvalidPassword",
+  "historyId" : "229ed1c71a9c01223a475cbd121a7ccc",
+  "time" : {
+    "start" : 1653840848717,
+    "stop" : 1653840849127,
+    "duration" : 410
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request to /api/v1/courier",
+      "time" : {
+        "start" : 1653840848720,
+        "stop" : 1653840848854,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "Courier(login=fNfoDgwurX, password=9580448962, firstName=nfZnFFGkEc)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send POST request to /api/v1/courier/login",
+      "time" : {
+        "start" : 1653840848854,
+        "stop" : 1653840849000,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "CourierCredentials(login=fNfoDgwurX, password=invalidPassword)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send DELETE request to /api/v1/courier/0",
+      "time" : {
+        "start" : 1653840849019,
+        "stop" : 1653840849127,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "0"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1989dbbdcfd0d80d",
+      "name" : "Login : ",
+      "source" : "1989dbbdcfd0d80d.txt",
+      "type" : "text/plain",
+      "size" : 10
+    }, {
+      "uid" : "8821e8a904a35723",
+      "name" : "Password : ",
+      "source" : "8821e8a904a35723.txt",
+      "type" : "text/plain",
+      "size" : 10
+    }, {
+      "uid" : "d86da7773f64cf4f",
+      "name" : "First name : ",
+      "source" : "d86da7773f64cf4f.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum.login"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.login.CourierLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "courierLoginInvalidPassword"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.login.CourierLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9JLAOSD0"
+  }, {
+    "name" : "thread",
+    "value" : "14768@LAPTOP-9JLAOSD0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dd48b7a0098c701.json",
+  "parameterValues" : [ ]
+}

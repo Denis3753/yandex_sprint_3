@@ -1,0 +1,149 @@
+{
+  "uid" : "9dc7a91cbbb0c511",
+  "name" : "Create order is valid credential",
+  "fullName" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest.orderCreateValidCredentials[2]",
+  "historyId" : "30f8682e193af6c83d652d397dffcbd7",
+  "time" : {
+    "start" : 1653841005096,
+    "stop" : 1653841005269,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request to /api/v1/orders",
+      "time" : {
+        "start" : 1653841005111,
+        "stop" : 1653841005243,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(firstName=Alfred, lastName=Hitchcock, address=London, WC47 5UL, metroStation=1, phone=+7 900 000 00 00, rentTime=5, deliveryDate=2022-05-29, comment=our comment..., color=[GREY, BLACK])"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5d249ed08ed30a10",
+      "name" : "First name : ",
+      "source" : "5d249ed08ed30a10.txt",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "7c7c0b4d149dce4d",
+      "name" : "Last name : ",
+      "source" : "7c7c0b4d149dce4d.txt",
+      "type" : "text/plain",
+      "size" : 9
+    }, {
+      "uid" : "8519e1f2adedc12",
+      "name" : "Address : ",
+      "source" : "8519e1f2adedc12.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "463074091e5c38d",
+      "name" : "Metro station: ",
+      "source" : "463074091e5c38d.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "d52fe304591c5da2",
+      "name" : "Phone : ",
+      "source" : "d52fe304591c5da2.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "d7e4e19f25456b10",
+      "name" : "Rent time : ",
+      "source" : "d7e4e19f25456b10.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "ac422ea568b839d9",
+      "name" : "Delivery date : ",
+      "source" : "ac422ea568b839d9.txt",
+      "type" : "text/plain",
+      "size" : 10
+    }, {
+      "uid" : "1e3582bbef6f2cb2",
+      "name" : "Comment : ",
+      "source" : "1e3582bbef6f2cb2.txt",
+      "type" : "text/plain",
+      "size" : 14
+    }, {
+      "uid" : "b2304cc2b661361",
+      "name" : "Color : ",
+      "source" : "b2304cc2b661361.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum.order"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderCreateValidCredentials[2]"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9JLAOSD0"
+  }, {
+    "name" : "thread",
+    "value" : "15116@LAPTOP-9JLAOSD0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Create order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eabb0f135b2505e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840911361,
+        "stop" : 1653840911520,
+        "duration" : 159
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9dc7a91cbbb0c511.json",
+  "parameterValues" : [ ]
+}

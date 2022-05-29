@@ -1,0 +1,203 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.yandex.praktikum.create.CreateCourierTest",
+    "children" : [ {
+      "name" : "Create courier is valid credentials",
+      "uid" : "a0c4a634ec9b7a09",
+      "parentUid" : "7c88449c9deb12f7e4281ae6994a690e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840934994,
+        "stop" : 1653840940801,
+        "duration" : 5807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create courier is empty password",
+      "uid" : "d2d61f366f47708b",
+      "parentUid" : "7c88449c9deb12f7e4281ae6994a690e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840940933,
+        "stop" : 1653840941312,
+        "duration" : 379
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Repeat request by duplicate data",
+      "uid" : "6b54d86fb4d1e214",
+      "parentUid" : "7c88449c9deb12f7e4281ae6994a690e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840941320,
+        "stop" : 1653840941805,
+        "duration" : 485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create courier is empty login",
+      "uid" : "7302f28c3b2129d3",
+      "parentUid" : "7c88449c9deb12f7e4281ae6994a690e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840941808,
+        "stop" : 1653840942071,
+        "duration" : 263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7c88449c9deb12f7e4281ae6994a690e"
+  }, {
+    "name" : "ru.yandex.praktikum.login.CourierLoginTest",
+    "children" : [ {
+      "name" : "Courier invalid password",
+      "uid" : "c3f97854ba1bacba",
+      "parentUid" : "c45347839b84475d01eb67d2cada8858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840942077,
+        "stop" : 1653840942575,
+        "duration" : 498
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier invalid login",
+      "uid" : "7bc18a426348446a",
+      "parentUid" : "c45347839b84475d01eb67d2cada8858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840942578,
+        "stop" : 1653840943027,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier with empty field password",
+      "uid" : "67f7a16ab1327137",
+      "parentUid" : "c45347839b84475d01eb67d2cada8858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840943032,
+        "stop" : 1653841003420,
+        "duration" : 60388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier with empty field login",
+      "uid" : "f163e7f8909104c3",
+      "parentUid" : "c45347839b84475d01eb67d2cada8858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841003426,
+        "stop" : 1653841003987,
+        "duration" : 561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier is valid credential",
+      "uid" : "ae45070822468246",
+      "parentUid" : "c45347839b84475d01eb67d2cada8858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841003991,
+        "stop" : 1653841004470,
+        "duration" : 479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c45347839b84475d01eb67d2cada8858"
+  }, {
+    "name" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest",
+    "children" : [ {
+      "name" : "Create order is valid credential",
+      "uid" : "47268d061f74fb2e",
+      "parentUid" : "f91b6872d83b926a0dd59de4e83b316e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841004539,
+        "stop" : 1653841004859,
+        "duration" : 320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "60591a4598520fbd",
+      "parentUid" : "f91b6872d83b926a0dd59de4e83b316e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841004868,
+        "stop" : 1653841005090,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "9dc7a91cbbb0c511",
+      "parentUid" : "f91b6872d83b926a0dd59de4e83b316e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841005096,
+        "stop" : 1653841005269,
+        "duration" : 173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "4ec007ded64cf881",
+      "parentUid" : "f91b6872d83b926a0dd59de4e83b316e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841005273,
+        "stop" : 1653841005468,
+        "duration" : 195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f91b6872d83b926a0dd59de4e83b316e"
+  }, {
+    "name" : "ru.yandex.praktikum.order.GetAllOrdersTest",
+    "children" : [ {
+      "name" : "Get all orders courier",
+      "uid" : "c3c1564c7cdb54c9",
+      "parentUid" : "430fc595307c8644c8f6ca30edd76e30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841005474,
+        "stop" : 1653841006745,
+        "duration" : 1271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "430fc595307c8644c8f6ca30edd76e30"
+  } ]
+}
