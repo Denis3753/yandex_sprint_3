@@ -1,5 +1,5 @@
 {
-  "total" : 4,
+  "total" : 5,
   "items" : [ {
     "uid" : "c45347839b84475d01eb67d2cada8858",
     "name" : "ru.yandex.praktikum.login.CourierLoginTest",
@@ -32,6 +32,17 @@
       "passed" : 4,
       "unknown" : 0,
       "total" : 4
+    }
+  }, {
+    "uid" : "4a8f12f6599e4db5d946d456c9e5ef5f",
+    "name" : "ru.yandex.praktikum.login.CourierNotExistLoginAndPasswordTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   }, {
     "uid" : "430fc595307c8644c8f6ca30edd76e30",

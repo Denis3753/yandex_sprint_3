@@ -1,0 +1,154 @@
+{
+  "uid" : "db90db8e80a13094",
+  "name" : "Create courier is valid credentials",
+  "fullName" : "ru.yandex.praktikum.create.CreateCourierTest.courierCreateValidCredentials",
+  "historyId" : "b0843791c928daa8b8b326b1ce768dbe",
+  "time" : {
+    "start" : 1653855172136,
+    "stop" : 1653855178571,
+    "duration" : 6435
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request to /api/v1/courier",
+      "time" : {
+        "start" : 1653855172296,
+        "stop" : 1653855176943,
+        "duration" : 4647
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "Courier(login=swYIwrJlFj, password=3434632332, firstName=UTRdxWlZEF)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST request to /api/v1/courier/login",
+      "time" : {
+        "start" : 1653855178148,
+        "stop" : 1653855178290,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "CourierCredentials(login=swYIwrJlFj, password=3434632332)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE request to /api/v1/courier/75165",
+      "time" : {
+        "start" : 1653855178326,
+        "stop" : 1653855178566,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "75165"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "47c838b9fc21b492",
+      "name" : "Login : ",
+      "source" : "47c838b9fc21b492.txt",
+      "type" : "text/plain",
+      "size" : 10
+    }, {
+      "uid" : "a5d1b4dc69951a1c",
+      "name" : "Password : ",
+      "source" : "a5d1b4dc69951a1c.txt",
+      "type" : "text/plain",
+      "size" : 10
+    }, {
+      "uid" : "fe39a168720963da",
+      "name" : "First name : ",
+      "source" : "fe39a168720963da.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum.create"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.create.CreateCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "courierCreateValidCredentials"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.create.CreateCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9JLAOSD0"
+  }, {
+    "name" : "thread",
+    "value" : "13456@LAPTOP-9JLAOSD0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9aacb352733eb202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840934994,
+        "stop" : 1653840940801,
+        "duration" : 5807
+      }
+    }, {
+      "uid" : "123e7631a14dfacf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840841294,
+        "stop" : 1653840847409,
+        "duration" : 6115
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db90db8e80a13094.json",
+  "parameterValues" : [ ]
+}

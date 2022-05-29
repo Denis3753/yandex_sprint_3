@@ -1,0 +1,157 @@
+{
+  "uid" : "6b219fa81c9f1b27",
+  "name" : "Create order is valid credential",
+  "fullName" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest.orderCreateValidCredentials[2]",
+  "historyId" : "30f8682e193af6c83d652d397dffcbd7",
+  "time" : {
+    "start" : 1653855242632,
+    "stop" : 1653855242763,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request to /api/v1/orders",
+      "time" : {
+        "start" : 1653855242641,
+        "stop" : 1653855242750,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(firstName=Alfred, lastName=Hitchcock, address=London, WC47 5UL, metroStation=1, phone=+7 900 000 00 00, rentTime=5, deliveryDate=2022-05-29, comment=our comment..., color=[GREY, BLACK])"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "62f93ebd58dc6da8",
+      "name" : "First name : ",
+      "source" : "62f93ebd58dc6da8.txt",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "6f774722b87e5800",
+      "name" : "Last name : ",
+      "source" : "6f774722b87e5800.txt",
+      "type" : "text/plain",
+      "size" : 9
+    }, {
+      "uid" : "ab3f46f284a59be3",
+      "name" : "Address : ",
+      "source" : "ab3f46f284a59be3.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "632ac0fa89acf516",
+      "name" : "Metro station: ",
+      "source" : "632ac0fa89acf516.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "e420f04c0574f4ec",
+      "name" : "Phone : ",
+      "source" : "e420f04c0574f4ec.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "838e9daafc805404",
+      "name" : "Rent time : ",
+      "source" : "838e9daafc805404.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "d35d576cbfa39596",
+      "name" : "Delivery date : ",
+      "source" : "d35d576cbfa39596.txt",
+      "type" : "text/plain",
+      "size" : 10
+    }, {
+      "uid" : "a1215a92851cd758",
+      "name" : "Comment : ",
+      "source" : "a1215a92851cd758.txt",
+      "type" : "text/plain",
+      "size" : 14
+    }, {
+      "uid" : "1f7c59054e4ad729",
+      "name" : "Color : ",
+      "source" : "1f7c59054e4ad729.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum.order"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderCreateValidCredentials[2]"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9JLAOSD0"
+  }, {
+    "name" : "thread",
+    "value" : "13456@LAPTOP-9JLAOSD0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Create order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce7785fb7365ce35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653841005096,
+        "stop" : 1653841005269,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "958bbd30e71cd390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653840911361,
+        "stop" : 1653840911520,
+        "duration" : 159
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b219fa81c9f1b27.json",
+  "parameterValues" : [ ]
+}
