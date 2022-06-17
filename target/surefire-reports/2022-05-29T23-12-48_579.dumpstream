@@ -1,0 +1,4 @@
+# Created at 2022-05-29T23:12:48.916
+Boot Manifest-JAR contains absolute paths in classpath 'D:\yandex_sprint_3\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

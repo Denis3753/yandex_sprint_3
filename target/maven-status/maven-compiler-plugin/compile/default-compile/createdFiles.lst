@@ -1,0 +1,9 @@
+ru\yandex\praktikum\entities\Order.class
+ru\yandex\praktikum\utils\GenerateCourier.class
+ru\yandex\praktikum\utils\EndPoints.class
+ru\yandex\praktikum\config\ScooterConfig.class
+ru\yandex\praktikum\entities\CourierCredentials.class
+ru\yandex\praktikum\entities\Order$OrderBuilder.class
+ru\yandex\praktikum\api\OrderClient.class
+ru\yandex\praktikum\entities\Courier.class
+ru\yandex\praktikum\api\CourierClient.class

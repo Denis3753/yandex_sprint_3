@@ -1,0 +1,216 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.yandex.praktikum",
+    "children" : [ {
+      "name" : "create",
+      "children" : [ {
+        "name" : "courierCreateValidCredentials",
+        "uid" : "db90db8e80a13094",
+        "parentUid" : "a2da3e45b0570833b873ab18fa19c6fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855172136,
+          "stop" : 1653855178571,
+          "duration" : 6435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierCreateIsEmptyPassword",
+        "uid" : "9caaddb48895fd8d",
+        "parentUid" : "a2da3e45b0570833b873ab18fa19c6fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855178715,
+          "stop" : 1653855179025,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierCreateRepeatedRequestByDuplicateData",
+        "uid" : "1f757593fa5479af",
+        "parentUid" : "a2da3e45b0570833b873ab18fa19c6fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855179034,
+          "stop" : 1653855179489,
+          "duration" : 455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierCreateIsEmptyLogin",
+        "uid" : "de271f3632334e32",
+        "parentUid" : "a2da3e45b0570833b873ab18fa19c6fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855179496,
+          "stop" : 1653855179819,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2da3e45b0570833b873ab18fa19c6fe"
+    }, {
+      "name" : "login",
+      "children" : [ {
+        "name" : "courierLoginInvalidPassword",
+        "uid" : "2e7275582a7e2c32",
+        "parentUid" : "5f1896dedb87c2f727832f022dc0fd40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855179826,
+          "stop" : 1653855180236,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginInvalidLogin",
+        "uid" : "36de2c4f7e06f93f",
+        "parentUid" : "5f1896dedb87c2f727832f022dc0fd40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855180241,
+          "stop" : 1653855180804,
+          "duration" : 563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginIsEmptyPassword",
+        "uid" : "80ff2b5458cd9fd5",
+        "parentUid" : "5f1896dedb87c2f727832f022dc0fd40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855180815,
+          "stop" : 1653855241225,
+          "duration" : 60410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginIsEmptyLogin",
+        "uid" : "7631c85531f42c1e",
+        "parentUid" : "5f1896dedb87c2f727832f022dc0fd40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855241231,
+          "stop" : 1653855241702,
+          "duration" : 471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginValidCredentials",
+        "uid" : "92e09d3bc1954b19",
+        "parentUid" : "5f1896dedb87c2f727832f022dc0fd40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855241706,
+          "stop" : 1653855242124,
+          "duration" : 418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginNonExistLoginAndPassword",
+        "uid" : "f0b62c4d4e976766",
+        "parentUid" : "5f1896dedb87c2f727832f022dc0fd40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855242128,
+          "stop" : 1653855242257,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f1896dedb87c2f727832f022dc0fd40"
+    }, {
+      "name" : "order",
+      "children" : [ {
+        "name" : "orderCreateValidCredentials[0]",
+        "uid" : "b791e74701701504",
+        "parentUid" : "25200a1381746dd93d250ee1ed67e55b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855242295,
+          "stop" : 1653855242457,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "orderCreateValidCredentials[1]",
+        "uid" : "2a335655c7c65f10",
+        "parentUid" : "25200a1381746dd93d250ee1ed67e55b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855242461,
+          "stop" : 1653855242629,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "orderCreateValidCredentials[2]",
+        "uid" : "6b219fa81c9f1b27",
+        "parentUid" : "25200a1381746dd93d250ee1ed67e55b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855242632,
+          "stop" : 1653855242763,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "orderCreateValidCredentials[3]",
+        "uid" : "85a5d8ef798fd62d",
+        "parentUid" : "25200a1381746dd93d250ee1ed67e55b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855242765,
+          "stop" : 1653855242898,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getAllOrders",
+        "uid" : "30c6d4820b72c2b5",
+        "parentUid" : "25200a1381746dd93d250ee1ed67e55b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653855242904,
+          "stop" : 1653855243894,
+          "duration" : 990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25200a1381746dd93d250ee1ed67e55b"
+    } ],
+    "uid" : "ru.yandex.praktikum"
+  } ]
+}

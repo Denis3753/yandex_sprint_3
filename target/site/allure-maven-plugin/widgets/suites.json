@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "c45347839b84475d01eb67d2cada8858",
+    "name" : "ru.yandex.praktikum.login.CourierLoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "7c88449c9deb12f7e4281ae6994a690e",
+    "name" : "ru.yandex.praktikum.create.CreateCourierTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "f91b6872d83b926a0dd59de4e83b316e",
+    "name" : "ru.yandex.praktikum.order.CreateOrderParamitrizedTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "4a8f12f6599e4db5d946d456c9e5ef5f",
+    "name" : "ru.yandex.praktikum.login.CourierNotExistLoginAndPasswordTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "430fc595307c8644c8f6ca30edd76e30",
+    "name" : "ru.yandex.praktikum.order.GetAllOrdersTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
